@@ -1,0 +1,6 @@
+{
+  "name": "Stardew Fishing - Minijogo de Pesca",
+  "description": "Recriação fiel e completa do minijogo de pescaria de Stardew Valley com física autêntica, peixes com comportamentos variados, tesouros e loja do Willy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

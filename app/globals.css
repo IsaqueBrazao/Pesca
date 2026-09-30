@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+@import "tailwindcss";
+
+@layer utilities {
+  .font-pixel {
+    font-family: 'Press Start 2P', monospace, sans-serif;
+  }
+  .font-pixel-retro {
+    font-family: 'VT323', monospace, sans-serif;
+  }
+  .pixel-borders {
+    box-shadow: 
+      -3px 0 0 0 #3a1e05,
+      3px 0 0 0 #3a1e05,
+      0 -3px 0 0 #3a1e05,
+      0 3px 0 0 #3a1e05,
+      -3px -3px 0 0 #3a1e05,
+      3px -3px 0 0 #3a1e05,
+      -3px 3px 0 0 #3a1e05,
+      3px 3px 0 0 #3a1e05;
+  }
+  .pixel-box-wood {
+    background-color: #d18d48;
+    box-shadow:
+      inset -4px -4px 0px 0px #804c1e,
+      inset 4px 4px 0px 0px #f6bf7a,
+      -3px 0 0 0 #281608,
+      3px 0 0 0 #281608,
+      0 -3px 0 0 #281608,
+      0 3px 0 0 #281608;
+  }
+  .pixel-box-parchment {
+    background-color: #fee9bb;
+    box-shadow:
+      inset -3px -3px 0px 0px #d8b275,
+      inset 3px 3px 0px 0px #fff7de,
+      -2px 0 0 0 #4a2810,
+      2px 0 0 0 #4a2810,
+      0 -2px 0 0 #4a2810,
+      0 2px 0 0 #4a2810;
+  }
+  .pixel-box-dark {
+    background-color: #1a233a;
+    box-shadow:
+      inset -3px -3px 0px 0px #0b101d,
+      inset 3px 3px 0px 0px #2a385c,
+      -2px 0 0 0 #05080e,
+      2px 0 0 0 #05080e,
+      0 -2px 0 0 #05080e,
+      0 2px 0 0 #05080e;
+  }
+}
+
+/* Prevent unwanted drag/selection behavior for mini-game controls */
+* {
+  user-select: none;
+  -webkit-user-select: none;
+}
